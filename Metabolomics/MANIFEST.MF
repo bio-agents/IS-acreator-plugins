@@ -1,0 +1,48 @@
+Export-Package: org.isaagents.plugins.metabolights.assignments.model,
+ org.isaagents.plugins.metabolights.assignments.ui,
+ org.isaagents.plugins.metabolights.assignments.io,
+ org.isaagents.plugins.metabolights.assignments.actions,
+ org.isaagents.plugins.metabolights.assignments
+Agent: Bnd-1.15.0
+Bundle-Name: Metabolights Plugin.
+Bundle-Vendor: EBI Metabolights Team
+Bundle-Version: 0.3.0.SNAPSHOT
+Embed-Transitive: true
+Bundle-Activator: org.isaagents.plugins.metabolights.assignments.
+ Activator
+Bundle-ManifestVersion: 2
+Bundle-Description: Plugin to provide ability to edit small molecule
+ description data in ISAcreator.
+Import-Package: org.osgi.framework;version="[1.4,2)",
+ org.isaagents.isacreator.plugins,uk.ac.ebi.utils.io,
+ uk.ac.ebi.utils.xml,org.isaagents.isacreator.ontologymanager.common,
+ org.isaagents.isacreator.ontologymanager,
+ org.isaagents.isacreator.io.importisa,
+ org.isaagents.isacreator.api.utils,
+ org.isaagents.isacreator.managers,
+ org.isaagents.isacreator.plugins.registries,
+ org.isaagents.isacreator.plugins.host.service,
+ org.isaagents.isacreator.configuration.io,
+ org.isaagents.isacreator.model,org.isaagents.isacreator.gui,
+ org.isaagents.isacreator.common,org.isaagents.errorreporter.ui,
+ org.apache.xmlbeans,org.apache.log4j,org.apache.log4j.spi,
+ org.isaagents.isatab.configurator.schema,
+ org.isaagents.isacreator.effects,org.isaagents.isacreator.spreadsheet,
+ org.isaagents.isacreator.apiutils,org.apache.commons.logging,
+ org.isaagents.isacreator.configuration,
+ org.isaagents.errorreporter.ui.borders,com.sun.awt,
+ uk.ac.ebi.utils.collections,org.jdesktop.fuse,
+ org.isaagents.isacreator.gui.menu,org.isaagents.isatab.isaconfigurator,
+ com.explodingpixels.macwidgets,org.isaagents.isacreator.io.im
+ portisa.errorhandling.exceptions,javax.swing,javax.swing.border,
+ javax.swing.event,javax.swing.table,javax.swing.text,
+ javax.swing.tree,org.w3c.dom,org.xml.sax,javax.xml.bind,
+ javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,
+ javax.xml.bind.attachment,javax.xml.bind.util,javax.xml.datatype,
+ javax.xml.namespace,javax.xml.parsers,
+ javax.xml.soap,javax.xml.stream",
+ javax.xml.stream.util,javax.xml.transform,
+ javax.xml.transform.dom,javax.xml.transform.sax,
+ javax.xml.transform.stream,javax.xml.validation,javax.activation
+Bundle-SymbolicName: org.isaagents.plugins.metabolights.metabolomics
+
